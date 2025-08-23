@@ -1,0 +1,4 @@
+# query the avg sal
+select avg(sal) 
+from emp
+;
