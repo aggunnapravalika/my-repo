@@ -36,5 +36,13 @@ where deptno = (select deptno
                from dept
                 where loc = 'new york');
 
+select *
+from emp
+where empno = (select mgr
+              from emp
+              where empno in (select mgr
+                              from emp
+                              where ename = 'smith') 
+
 
 
