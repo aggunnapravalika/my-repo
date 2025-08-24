@@ -2,3 +2,13 @@
 select avg(sal) 
 from emp
 ;
+
+# CTE FOR MAX(SAL) FROM EMP TABLE
+
+WITH CTE_MAX_SAL AS
+(
+    SELECT MAX(SAL)
+    FROM EMP
+)
+SELECT *
+FROM CTE_MAX_SAL;
