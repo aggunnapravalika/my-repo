@@ -19,4 +19,4 @@ select count(*)
 from emp
 where deptno = (select deptno
                from dept
-                where loc = 'newyork');
+                where loc = 'new york');
