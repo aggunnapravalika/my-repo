@@ -16,6 +16,7 @@ where deptno = (select deptno
 
 
 
+# query to find avg sal of emp working in dallas loc
 
 select avg(sal)
 from emp
