@@ -24,5 +24,9 @@ where deptno = (select deptno
                 from dept
                 where loc = 'dallas');
 
+select *
+from dept;
+
+
 
 
