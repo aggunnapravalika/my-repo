@@ -5,3 +5,12 @@ from emp
 where empno in (select mgr
                 from emp
                 where ename = 'jones');
+
+
+# query to find dname of jones
+select dname
+from dept
+where deptno = (select deptno
+                from emp
+                where ename = 'jones');
+
