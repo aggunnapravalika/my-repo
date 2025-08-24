@@ -14,3 +14,9 @@ where deptno = (select deptno
                 from emp
                 where ename = 'jones');
 
+# count of employees working in newyork location
+select count(*)
+from emp
+where deptno = (select deptno
+               from dept
+                where loc = 'newyork');
