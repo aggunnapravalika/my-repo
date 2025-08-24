@@ -1,0 +1,7 @@
+# query to find jones manager
+
+select *
+from emp
+where empno in (select mgr
+                from emp
+                where ename = 'jones');
