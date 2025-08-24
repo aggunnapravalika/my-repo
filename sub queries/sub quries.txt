@@ -36,5 +36,9 @@ where deptno = (select deptno
                from dept
                 where loc = 'new york');
 
+select sal
+from emp
+where ename = 'smith';
+
 
 
