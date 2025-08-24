@@ -14,3 +14,14 @@ where deptno = (select deptno
                 from emp
                 where ename = 'jones');
 
+
+
+
+select avg(sal)
+from emp
+where deptno = (select deptno
+                from dept
+                where loc = 'dallas');
+
+
+
