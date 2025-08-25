@@ -42,7 +42,11 @@ where empno = (select mgr
               from emp
               where empno in (select mgr
                               from emp
-                              where ename = 'smith') 
+                              where ename = 'smith')); 
+
+
+this is TB1
+
 
 
 
