@@ -51,5 +51,3 @@ this is TB1
 
 
 this is TB2
-
-i want to commit and revert to the previous commit
