@@ -5,4 +5,4 @@ from emp
 where empno in (select mgr
                 from emp
                 where ename = 'jones');
-
+latest commit with modified changes
