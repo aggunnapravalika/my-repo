@@ -5,3 +5,4 @@ from emp
 where empno in (select mgr
                 from emp
                 where ename = 'jones');
+
